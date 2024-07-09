@@ -1,0 +1,149 @@
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
+  
+  /* shared style */
+  .secondary-bg{
+    background-color: #FFF8F3;
+    background-size: 300px;
+  }
+  
+  .text-primary {
+    color: #FD6E0A;
+  }
+  
+  .dark-2 {
+    color: #474747;
+  }
+  
+  .btn-primary {
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 18px 34px;
+    border-radius: 5px;
+  }
+
+  .section-title {
+    font-size: 20px;
+    font-weight: bold;
+    color:black;
+    align-items: center;
+
+
+  }
+  .section-description{
+    font-size: 18px;
+    color: black;
+  }
+  .text-center{
+    text-align: center;
+  }
+  
+  /* Header */
+  .header {
+    background-image: url(00.png); 
+    background-position: left;
+    background-image: url(header_bg.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+  }
+  .background {
+    background-position: top left;
+
+  }
+  
+  /* Nav Styles */
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 200px;
+  }
+  
+  .nav-title {
+    font-weight: 800;
+    font-size: 45px;
+  }
+  
+  nav ul {
+    display: flex;
+    align-content: center;
+  }
+  
+  nav ul li {
+    list-style: none;
+    margin-right: 50px;
+  }
+  
+  nav li a {
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* Banner Styles */
+  .banner {
+    display: block;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+    
+  }
+  
+  .banner-content {
+    max-width: 580px;
+  }
+  
+  .banner-greetings {
+    font-size: 60px;
+    font-weight: 700px;
+  }
+  
+  .banner-title {
+    font-weight: bold;
+    font-size: 85px;
+    align-content: center;
+  }
+  
+  .banner-profile-pic {
+    width: 500px;
+    align-items: bottom right;
+  }
+  /* about styles */
+  .about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130p;
+
+  }
+
+  .item description{
+    font-weight: 600px;
+  }
+  .about-items{
+    display: flex;
+    justify-content: space-around;
+  }
+  /* main styles */
+  .main{
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .main-section{
+    margin-top: 130px;
+    margin-bottom: 30px;
+  }
+  /* skills section styles */
+  .skills-container{
+    display: flex;
+    gap: 20px;
+  }
+  .skill{
+    box-shadow: 0px 6px 50px #000000;
+    padding: 30px;
+    border-radius: 5px;
+  }
